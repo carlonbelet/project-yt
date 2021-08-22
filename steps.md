@@ -34,7 +34,11 @@ To do this, you will create a file in your current project named `.gitignore`. G
   2. In your local environment, [create a `.gitignore` file](https://help.github.com/articles/ignoring-files/). You can use a [template](https://github.com/github/gitignore) or create your own.
   3. Add the following code:`# project settings for VSCode .vscode`
 
-## Step 3: Make the move
+## Step 3: Setup connection with Github
+
+
+
+## Step 4: Make the move
 
 Having a project already stored locally enables you to move it to GitHub rather quickly. The following activity provides instructions to move your local project to GitHub using various tools. Select the tool you are most comfortable with and get importing :smile:.
 
