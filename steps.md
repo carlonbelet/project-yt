@@ -59,7 +59,7 @@ Having a project already stored locally enables you to move it to GitHub rather 
   1. In the Source Control Panel, click the expandable three dots that open a menu of options: Branch > Publish Branche. Or click on the blue cloud sign in the bottom left corner.
   1. When asked if you'd like to publish the branch, click **Okay**.
 
-  ## Step 5: Private or Public?
+## Step 5: Private or Public?
 
 Right now, your repository is set to public.
 
@@ -74,3 +74,39 @@ In public repositories, anybody can see your code. Millions of open source repos
 Licenses, code of conduct, and other files are important when you create a public repository. There are many benefits to this, but it's also a large responsibility. Keep in mind that once a repository is public _and_ open source, there are certain implications about keeping it public, depending on the license chosen.
 
 > It's important to note that public does **not** equal open source! The license associated with code determines whether or not it is open source.
+
+## Step 6: Create a beta release
+
+Create a release for this repository on GitHub.
+
+GitHub Releases point to a specific commit. Releases can include release notes in Markdown, and attached binaries.
+
+Before using a release based workflow for a larger release, let's create a tag and release.
+
+### :keyboard: Activity: Create a release for the current codebase
+
+1. Go to the [**Releases** page](https://github.com/carlonbelet/release-based-workflow/releases) for this repository.
+    - You can click the link above, or click the **Code** tab at the top of your repository. Then, find the navigation bar below the repository description, and click **0 releases**.
+1. Click **Create a new release**.
+1. In the field for _Tag version_, specify a number. In this case, use **v0.9**. Keep the _Target_ as **main**.
+1. Give the release a title, like "First beta release". If you'd like, you could also give the release a short description.
+1. Select the checkbox next to **This is a pre-release**, since it is representing a beta version.
+1. Click **Publish release**.
+
+Op dit moment wordt er wel een tag aangemaakt en een release. De code basis wordt meegenomen in een zip bestand.
+
+## Step 7: Create a project board
+
+### Organizing Releases
+
+Creating a release package on GitHub might be easy, but it's only a piece of the puzzle. Releases often involve prioritized bug fixes, feature releases, and assorted tasks. How do you make sure you're keeping track? What happens if you want to save the most exciting features for a larger update?
+
+On GitHub, let's keep track of several related issues with a GitHub project board.
+
+### :keyboard: Activity: Create a project board
+
+1. Navigate to the [Projects](https://github.com/carlonbelet/release-based-workflow/projects) tab of this repository.
+1. Click **Create a project**.
+1. Under **Project board name**, type "Release 1.0 tracker".
+1. In the **Template** dropdown, select **Automated kanban**.
+1. Click **Create project**.
