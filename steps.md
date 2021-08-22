@@ -36,7 +36,9 @@ To do this, you will create a file in your current project named `.gitignore`. G
 
 ## Step 3: Setup connection with Github
 
-
+  1. Open the integrated terminal found under View > Integrated Terminal.
+  2. In your command line, type `git config --global user.name "carlonbelet"`
+  3. In your command line, type `git config --global user.email "carl.onbelet@rts-consult.com"`
 
 ## Step 4: Make the move
 
