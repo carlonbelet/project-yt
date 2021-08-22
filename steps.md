@@ -56,5 +56,5 @@ Having a project already stored locally enables you to move it to GitHub rather 
   1. Click the checkmark at the top of the Source Control panel.
   1. Open the integrated terminal found under View > Integrated Terminal.
   1. In your command line, type `git remote add origin https://github.com/carlonbelet/github-upload`
-  1. In the Source Control Panel, click the expandable three dots that open a menu of options.
+  1. In the Source Control Panel, click the expandable three dots that open a menu of options. Or click on the blue cloud sign in the bottom left corner.
   1. When asked if you'd like to publish the branch, click **Okay**.
