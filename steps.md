@@ -55,6 +55,22 @@ Having a project already stored locally enables you to move it to GitHub rather 
   1. In the box in the Source Control panel, type a commit message. Something like "initial commit - moving project" could work.
   1. Click the checkmark at the top of the Source Control panel.
   1. Open the integrated terminal found under View > Integrated Terminal.
-  1. In your command line, type `git remote add origin https://github.com/carlonbelet/github-upload`
-  1. In the Source Control Panel, click the expandable three dots that open a menu of options. Or click on the blue cloud sign in the bottom left corner.
+  1. In your command line, type `git remote add origin https://github.com/carlonbelet/github-upload` or go via the Source Control Panel, click the expandable three dots that opens a menu of options: Remote > Add remote and paste in the URL above.
+  1. In the Source Control Panel, click the expandable three dots that open a menu of options: Branch > Publish Branche. Or click on the blue cloud sign in the bottom left corner.
   1. When asked if you'd like to publish the branch, click **Okay**.
+
+  ## Step 5: Private or Public?
+
+Right now, your repository is set to public.
+
+You can change the visibility of a repository to Private or Public at any time in your repository's **Settings** tab, but there are some things you should know.
+
+### Private Repositories
+If your repository is private, the only people who can see your code are you and the collaborators <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup> you've invited.
+
+### Public Repositories
+In public repositories, anybody can see your code. Millions of open source repositories on GitHub are public, too!
+
+Licenses, code of conduct, and other files are important when you create a public repository. There are many benefits to this, but it's also a large responsibility. Keep in mind that once a repository is public _and_ open source, there are certain implications about keeping it public, depending on the license chosen.
+
+> It's important to note that public does **not** equal open source! The license associated with code determines whether or not it is open source.
